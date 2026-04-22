@@ -1,0 +1,7 @@
+{
+  "@@locale": "pt",
+  "appName": "InspireMe",
+  "@appName": {
+    "description": "Nome do aplicativo"
+  }
+}
