@@ -10,4 +10,10 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get appName => 'InspireMe';
+
+  @override
+  String get splashSubtitle => 'Sua dose diária de inspiração';
+
+  @override
+  String get loading => 'Carregando...';
 }

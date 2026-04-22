@@ -3,5 +3,13 @@
   "appName": "InspireMe",
   "@appName": {
     "description": "App name"
+  },
+  "splashSubtitle": "Your daily dose of inspiration",
+  "@splashSubtitle": {
+    "description": "Splash screen subtitle"
+  },
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading text"
   }
 }

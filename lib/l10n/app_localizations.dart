@@ -100,6 +100,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'InspireMe'**
   String get appName;
+
+  /// Splash screen subtitle
+  ///
+  /// In en, this message translates to:
+  /// **'Your daily dose of inspiration'**
+  String get splashSubtitle;
+
+  /// Loading text
+  ///
+  /// In en, this message translates to:
+  /// **'Loading...'**
+  String get loading;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

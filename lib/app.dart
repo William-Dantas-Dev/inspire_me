@@ -1,17 +1,27 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-
+import 'core/theme/app_theme.dart';
+import 'features/application/locale/locale_provider.dart';
+import 'features/application/theme/theme_mode_provider.dart';
+import 'features/presentation/pages/splash/splash_page.dart';
 import 'l10n/app_localizations.dart';
 
-class InspireMeApp extends StatelessWidget {
+class InspireMeApp extends ConsumerWidget {
   const InspireMeApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final themeMode = ref.watch(themeModeProvider);
+    final locale = ref.watch(localeProvider);
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       onGenerateTitle: (context) => AppLocalizations.of(context)!.appName,
-      locale: const Locale('pt'),
+      theme: AppTheme.light,
+      darkTheme: AppTheme.dark,
+      themeMode: themeMode,
+      locale: locale,
       supportedLocales: AppLocalizations.supportedLocales,
       localizationsDelegates: const [
         AppLocalizations.delegate,
@@ -19,33 +29,7 @@ class InspireMeApp extends StatelessWidget {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const _AppBootstrapPage(),
-    );
-  }
-}
-
-class _AppBootstrapPage extends StatelessWidget {
-  const _AppBootstrapPage();
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(AppLocalizations.of(context)!.appName),
-      ),
-      body: Center(
-        child: Text(
-          AppLocalizations.of(context)!.appName,
-          style: const TextStyle(
-            fontSize: 24,
-            fontWeight: FontWeight.w600,
-          ),
-        ),
-      ),
+      home: const SplashPage(),
     );
   }
 }
