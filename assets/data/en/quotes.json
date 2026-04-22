@@ -1,0 +1,1102 @@
+[
+    {
+        "id": 1,
+        "text": "You do not need to feel motivated, you just need to keep going.",
+        "category": 1,
+        "author": null,
+        "tags": [
+            "Discipline",
+            "Persistence"
+        ],
+        "active": true
+    },
+    {
+        "id": 2,
+        "text": "Small steps are still progress.",
+        "category": 1,
+        "author": null,
+        "tags": [
+            "Progress",
+            "Consistency"
+        ],
+        "active": true
+    },
+    {
+        "id": 3,
+        "text": "You have already made it through harder days than this one.",
+        "category": 1,
+        "author": null,
+        "tags": [
+            "Strength",
+            "Overcoming"
+        ],
+        "active": true
+    },
+    {
+        "id": 4,
+        "text": "Today's effort builds tomorrow's result.",
+        "category": 1,
+        "author": null,
+        "tags": [
+            "Effort",
+            "Future"
+        ],
+        "active": true
+    },
+    {
+        "id": 5,
+        "text": "Even if it is slow, you are still moving forward.",
+        "category": 1,
+        "author": null,
+        "tags": [
+            "Persistence",
+            "Progress"
+        ],
+        "active": true
+    },
+    {
+        "id": 6,
+        "text": "Discipline takes you where motivation cannot.",
+        "category": 1,
+        "author": null,
+        "tags": [
+            "Discipline",
+            "Focus"
+        ],
+        "active": true
+    },
+    {
+        "id": 7,
+        "text": "Do not stop now. You have already come too far.",
+        "category": 1,
+        "author": null,
+        "tags": [
+            "Persistence",
+            "Strength"
+        ],
+        "active": true
+    },
+    {
+        "id": 8,
+        "text": "You do not need to be perfect, just consistent.",
+        "category": 1,
+        "author": null,
+        "tags": [
+            "Consistency",
+            "Growth"
+        ],
+        "active": true
+    },
+    {
+        "id": 9,
+        "text": "Keep going. One day you will be grateful you did not give up.",
+        "category": 1,
+        "author": null,
+        "tags": [
+            "Persistence",
+            "Future"
+        ],
+        "active": true
+    },
+    {
+        "id": 10,
+        "text": "Doing the basics well already puts you ahead of many people.",
+        "category": 1,
+        "author": null,
+        "tags": [
+            "Discipline",
+            "Consistency"
+        ],
+        "active": true
+    },
+    {
+        "id": 11,
+        "text": "Breathe. Not everything needs to be solved right now.",
+        "category": 2,
+        "author": null,
+        "tags": [
+            "Calm",
+            "Present"
+        ],
+        "active": true
+    },
+    {
+        "id": 12,
+        "text": "Your mind is racing, but that does not mean something is wrong.",
+        "category": 2,
+        "author": null,
+        "tags": [
+            "Anxiety",
+            "Awareness"
+        ],
+        "active": true
+    },
+    {
+        "id": 13,
+        "text": "Not every thought deserves your attention.",
+        "category": 2,
+        "author": null,
+        "tags": [
+            "Control",
+            "Mind"
+        ],
+        "active": true
+    },
+    {
+        "id": 14,
+        "text": "You do not need to have everything under control all the time.",
+        "category": 2,
+        "author": null,
+        "tags": [
+            "Control",
+            "Acceptance"
+        ],
+        "active": true
+    },
+    {
+        "id": 15,
+        "text": "What you are feeling will pass, even if it feels intense right now.",
+        "category": 2,
+        "author": null,
+        "tags": [
+            "Calm",
+            "Hope"
+        ],
+        "active": true
+    },
+    {
+        "id": 16,
+        "text": "You are safe right now. Focus on the present.",
+        "category": 2,
+        "author": null,
+        "tags": [
+            "Present",
+            "Safety"
+        ],
+        "active": true
+    },
+    {
+        "id": 17,
+        "text": "Your mind may exaggerate, but not everything you think is true.",
+        "category": 2,
+        "author": null,
+        "tags": [
+            "Mind",
+            "Reality"
+        ],
+        "active": true
+    },
+    {
+        "id": 18,
+        "text": "One step at a time is enough.",
+        "category": 2,
+        "author": null,
+        "tags": [
+            "Calm",
+            "Process"
+        ],
+        "active": true
+    },
+    {
+        "id": 19,
+        "text": "You are not behind. Everyone has their own timing.",
+        "category": 2,
+        "author": null,
+        "tags": [
+            "Comparison",
+            "Acceptance"
+        ],
+        "active": true
+    },
+    {
+        "id": 20,
+        "text": "Try to slow down. Not everything has to happen today.",
+        "category": 2,
+        "author": null,
+        "tags": [
+            "Calm",
+            "Time"
+        ],
+        "active": true
+    },
+    {
+        "id": 21,
+        "text": "You do not need to make yourself smaller to fit into someone else's life.",
+        "category": 3,
+        "author": null,
+        "tags": [
+            "Self-Worth",
+            "Respect"
+        ],
+        "active": true
+    },
+    {
+        "id": 22,
+        "text": "You deserve the same love you give to others.",
+        "category": 3,
+        "author": null,
+        "tags": [
+            "Self-Love",
+            "Worth"
+        ],
+        "active": true
+    },
+    {
+        "id": 23,
+        "text": "Not everyone will recognize your worth, and that is okay.",
+        "category": 3,
+        "author": null,
+        "tags": [
+            "Acceptance",
+            "Self-Confidence"
+        ],
+        "active": true
+    },
+    {
+        "id": 24,
+        "text": "You do not need to prove anything to anyone.",
+        "category": 3,
+        "author": null,
+        "tags": [
+            "Confidence",
+            "Independence"
+        ],
+        "active": true
+    },
+    {
+        "id": 25,
+        "text": "Being yourself is already enough.",
+        "category": 3,
+        "author": null,
+        "tags": [
+            "Acceptance",
+            "Identity"
+        ],
+        "active": true
+    },
+    {
+        "id": 26,
+        "text": "You are not your mistakes, you are what you learn from them.",
+        "category": 3,
+        "author": null,
+        "tags": [
+            "Learning",
+            "Growth"
+        ],
+        "active": true
+    },
+    {
+        "id": 27,
+        "text": "Valuing yourself is not selfish, it is necessary.",
+        "category": 3,
+        "author": null,
+        "tags": [
+            "Self-Love",
+            "Awareness"
+        ],
+        "active": true
+    },
+    {
+        "id": 28,
+        "text": "You deserve to be in places where you feel good.",
+        "category": 3,
+        "author": null,
+        "tags": [
+            "Well-Being",
+            "Worth"
+        ],
+        "active": true
+    },
+    {
+        "id": 29,
+        "text": "Not everyone needs to like you for you to have value.",
+        "category": 3,
+        "author": null,
+        "tags": [
+            "Self-Confidence",
+            "Acceptance"
+        ],
+        "active": true
+    },
+    {
+        "id": 30,
+        "text": "You are more than what you think of yourself on bad days.",
+        "category": 3,
+        "author": null,
+        "tags": [
+            "Self-Worth",
+            "Awareness"
+        ],
+        "active": true
+    },
+    {
+        "id": 31,
+        "text": "Sometimes silence is louder than any conversation.",
+        "category": 4,
+        "author": null,
+        "tags": [
+            "Silence",
+            "Feeling"
+        ],
+        "active": true
+    },
+    {
+        "id": 32,
+        "text": "Being surrounded by people does not mean you do not feel alone.",
+        "category": 4,
+        "author": null,
+        "tags": [
+            "Isolation",
+            "Emotion"
+        ],
+        "active": true
+    },
+    {
+        "id": 33,
+        "text": "There are days when all you want is someone who truly understands.",
+        "category": 4,
+        "author": null,
+        "tags": [
+            "Understanding",
+            "Feeling"
+        ],
+        "active": true
+    },
+    {
+        "id": 34,
+        "text": "You learn to deal with loneliness, but that does not mean it does not hurt.",
+        "category": 4,
+        "author": null,
+        "tags": [
+            "Pain",
+            "Acceptance"
+        ],
+        "active": true
+    },
+    {
+        "id": 35,
+        "text": "No one notices when you have been too quiet for too long.",
+        "category": 4,
+        "author": null,
+        "tags": [
+            "Silence",
+            "Invisible"
+        ],
+        "active": true
+    },
+    {
+        "id": 36,
+        "text": "Sometimes all that is missing is someone who stays.",
+        "category": 4,
+        "author": null,
+        "tags": [
+            "Absence",
+            "Connection"
+        ],
+        "active": true
+    },
+    {
+        "id": 37,
+        "text": "You get used to the absence, but never to the emptiness.",
+        "category": 4,
+        "author": null,
+        "tags": [
+            "Absence",
+            "Longing"
+        ],
+        "active": true
+    },
+    {
+        "id": 38,
+        "text": "There are nights when loneliness feels bigger than everything.",
+        "category": 4,
+        "author": null,
+        "tags": [
+            "Night",
+            "Loneliness"
+        ],
+        "active": true
+    },
+    {
+        "id": 39,
+        "text": "You do not always want to be alone, but somehow you end up that way.",
+        "category": 4,
+        "author": null,
+        "tags": [
+            "Isolation",
+            "Feeling"
+        ],
+        "active": true
+    },
+    {
+        "id": 40,
+        "text": "The worst kind of loneliness is not feeling like you belong anywhere.",
+        "category": 4,
+        "author": null,
+        "tags": [
+            "Belonging",
+            "Emotion"
+        ],
+        "active": true
+    },
+    {
+        "id": 41,
+        "text": "You did not outgrow that version of yourself for no reason.",
+        "category": 5,
+        "author": null,
+        "tags": [
+            "Growth",
+            "Evolution"
+        ],
+        "active": true
+    },
+    {
+        "id": 42,
+        "text": "Some phases are hard, but they are the ones that transform you.",
+        "category": 5,
+        "author": null,
+        "tags": [
+            "Transformation",
+            "Process"
+        ],
+        "active": true
+    },
+    {
+        "id": 43,
+        "text": "You have already overcome things you once thought you could not.",
+        "category": 5,
+        "author": null,
+        "tags": [
+            "Strength",
+            "Overcoming"
+        ],
+        "active": true
+    },
+    {
+        "id": 44,
+        "text": "It was not easy, but you made it this far.",
+        "category": 5,
+        "author": null,
+        "tags": [
+            "Persistence",
+            "Strength"
+        ],
+        "active": true
+    },
+    {
+        "id": 45,
+        "text": "Scars also tell stories of victory.",
+        "category": 5,
+        "author": null,
+        "tags": [
+            "Resilience",
+            "Story"
+        ],
+        "active": true
+    },
+    {
+        "id": 46,
+        "text": "Every fall taught you something that made you stronger.",
+        "category": 5,
+        "author": null,
+        "tags": [
+            "Learning",
+            "Strength"
+        ],
+        "active": true
+    },
+    {
+        "id": 47,
+        "text": "You are not the same person you used to be, and that is a good thing.",
+        "category": 5,
+        "author": null,
+        "tags": [
+            "Change",
+            "Evolution"
+        ],
+        "active": true
+    },
+    {
+        "id": 48,
+        "text": "What broke you also rebuilt you.",
+        "category": 5,
+        "author": null,
+        "tags": [
+            "Rebuilding",
+            "Strength"
+        ],
+        "active": true
+    },
+    {
+        "id": 49,
+        "text": "You learned how to get back up even without help.",
+        "category": 5,
+        "author": null,
+        "tags": [
+            "Independence",
+            "Strength"
+        ],
+        "active": true
+    },
+    {
+        "id": 50,
+        "text": "Nothing you went through was in vain.",
+        "category": 5,
+        "author": null,
+        "tags": [
+            "Purpose",
+            "Overcoming"
+        ],
+        "active": true
+    },
+    {
+        "id": 51,
+        "text": "Loving also means knowing when to stop insisting.",
+        "category": 6,
+        "author": null,
+        "tags": [
+            "Love",
+            "Boundaries"
+        ],
+        "active": true
+    },
+    {
+        "id": 52,
+        "text": "Not every love is mutual, and that hurts more than it should.",
+        "category": 6,
+        "author": null,
+        "tags": [
+            "Love",
+            "Disappointment"
+        ],
+        "active": true
+    },
+    {
+        "id": 53,
+        "text": "You deserve a love that does not make you doubt.",
+        "category": 6,
+        "author": null,
+        "tags": [
+            "Love",
+            "Security"
+        ],
+        "active": true
+    },
+    {
+        "id": 54,
+        "text": "Love should not feel confusing all the time.",
+        "category": 6,
+        "author": null,
+        "tags": [
+            "Love",
+            "Reflection"
+        ],
+        "active": true
+    },
+    {
+        "id": 55,
+        "text": "Sometimes the feeling is there, but the person does not know how to deal with it.",
+        "category": 6,
+        "author": null,
+        "tags": [
+            "Love",
+            "Confusion"
+        ],
+        "active": true
+    },
+    {
+        "id": 56,
+        "text": "You do not need to beg for something that should come naturally.",
+        "category": 6,
+        "author": null,
+        "tags": [
+            "Self-Love",
+            "Boundaries"
+        ],
+        "active": true
+    },
+    {
+        "id": 57,
+        "text": "Loving alone is more exhausting than it seems.",
+        "category": 6,
+        "author": null,
+        "tags": [
+            "Love",
+            "Exhaustion"
+        ],
+        "active": true
+    },
+    {
+        "id": 58,
+        "text": "Not everyone you love will know how to love you back.",
+        "category": 6,
+        "author": null,
+        "tags": [
+            "Love",
+            "Reality"
+        ],
+        "active": true
+    },
+    {
+        "id": 59,
+        "text": "Sometimes letting go is also a form of love.",
+        "category": 6,
+        "author": null,
+        "tags": [
+            "Love",
+            "Letting Go"
+        ],
+        "active": true
+    },
+    {
+        "id": 60,
+        "text": "The right love does not make you feel insecure all the time.",
+        "category": 6,
+        "author": null,
+        "tags": [
+            "Love",
+            "Security"
+        ],
+        "active": true
+    },
+    {
+        "id": 61,
+        "text": "The hardest part was not the end, it was getting used to the absence.",
+        "category": 7,
+        "author": null,
+        "tags": [
+            "Breakup",
+            "Longing"
+        ],
+        "active": true
+    },
+    {
+        "id": 62,
+        "text": "You still miss them, even knowing it would not have worked.",
+        "category": 7,
+        "author": null,
+        "tags": [
+            "Longing",
+            "Conflict"
+        ],
+        "active": true
+    },
+    {
+        "id": 63,
+        "text": "Not every breakup happens because the love is gone.",
+        "category": 7,
+        "author": null,
+        "tags": [
+            "Love",
+            "Reality"
+        ],
+        "active": true
+    },
+    {
+        "id": 64,
+        "text": "You had to leave, even though you wanted to stay.",
+        "category": 7,
+        "author": null,
+        "tags": [
+            "Decision",
+            "Pain"
+        ],
+        "active": true
+    },
+    {
+        "id": 65,
+        "text": "Some people enter your life only to teach you how to walk away.",
+        "category": 7,
+        "author": null,
+        "tags": [
+            "Learning",
+            "Letting Go"
+        ],
+        "active": true
+    },
+    {
+        "id": 66,
+        "text": "You replay it more than you should, and it still hurts.",
+        "category": 7,
+        "author": null,
+        "tags": [
+            "Memory",
+            "Pain"
+        ],
+        "active": true
+    },
+    {
+        "id": 67,
+        "text": "Closing a chapter does not always bring immediate relief.",
+        "category": 7,
+        "author": null,
+        "tags": [
+            "Cycle",
+            "Process"
+        ],
+        "active": true
+    },
+    {
+        "id": 68,
+        "text": "Do you miss the person, or the version of the two of you?",
+        "category": 7,
+        "author": null,
+        "tags": [
+            "Reflection",
+            "Longing"
+        ],
+        "active": true
+    },
+    {
+        "id": 69,
+        "text": "Sometimes love ends, but the feeling remains.",
+        "category": 7,
+        "author": null,
+        "tags": [
+            "Love",
+            "Longing"
+        ],
+        "active": true
+    },
+    {
+        "id": 70,
+        "text": "Healing is not forgetting, it is learning how to live without it.",
+        "category": 7,
+        "author": null,
+        "tags": [
+            "Overcoming",
+            "Acceptance"
+        ],
+        "active": true
+    },
+    {
+        "id": 71,
+        "text": "Better days are coming, even if you cannot see them yet.",
+        "category": 8,
+        "author": null,
+        "tags": [
+            "Hope",
+            "Future"
+        ],
+        "active": true
+    },
+    {
+        "id": 72,
+        "text": "Not every difficult phase lasts forever.",
+        "category": 8,
+        "author": null,
+        "tags": [
+            "Time",
+            "Hope"
+        ],
+        "active": true
+    },
+    {
+        "id": 73,
+        "text": "You will still live through things that make it all worth it.",
+        "category": 8,
+        "author": null,
+        "tags": [
+            "Future",
+            "Motivation"
+        ],
+        "active": true
+    },
+    {
+        "id": 74,
+        "text": "Maybe what you are waiting for is closer than you think.",
+        "category": 8,
+        "author": null,
+        "tags": [
+            "Hope",
+            "Future"
+        ],
+        "active": true
+    },
+    {
+        "id": 75,
+        "text": "It is okay not to be okay right now. That does not define your future.",
+        "category": 8,
+        "author": null,
+        "tags": [
+            "Acceptance",
+            "Hope"
+        ],
+        "active": true
+    },
+    {
+        "id": 76,
+        "text": "Life can still surprise you in good ways.",
+        "category": 8,
+        "author": null,
+        "tags": [
+            "Future",
+            "Surprise"
+        ],
+        "active": true
+    },
+    {
+        "id": 77,
+        "text": "Not everything is lost, even if it feels that way.",
+        "category": 8,
+        "author": null,
+        "tags": [
+            "Hope",
+            "Strength"
+        ],
+        "active": true
+    },
+    {
+        "id": 78,
+        "text": "You still have many beautiful pages left to write.",
+        "category": 8,
+        "author": null,
+        "tags": [
+            "Future",
+            "New Beginning"
+        ],
+        "active": true
+    },
+    {
+        "id": 79,
+        "text": "What feels confusing today may make sense tomorrow.",
+        "category": 8,
+        "author": null,
+        "tags": [
+            "Time",
+            "Reflection"
+        ],
+        "active": true
+    },
+    {
+        "id": 80,
+        "text": "One day you will be proud that you did not give up.",
+        "category": 8,
+        "author": null,
+        "tags": [
+            "Persistence",
+            "Future"
+        ],
+        "active": true
+    },
+    {
+        "id": 81,
+        "text": "You thought so much that you turned something simple into a problem.",
+        "category": 9,
+        "author": null,
+        "tags": [
+            "Mind",
+            "Anxiety"
+        ],
+        "active": true
+    },
+    {
+        "id": 82,
+        "text": "Not everything you imagine is really happening.",
+        "category": 9,
+        "author": null,
+        "tags": [
+            "Mind",
+            "Reality"
+        ],
+        "active": true
+    },
+    {
+        "id": 83,
+        "text": "You are creating scenarios that do not even exist yet.",
+        "category": 9,
+        "author": null,
+        "tags": [
+            "Imagination",
+            "Anxiety"
+        ],
+        "active": true
+    },
+    {
+        "id": 84,
+        "text": "Overthinking is exhausting too.",
+        "category": 9,
+        "author": null,
+        "tags": [
+            "Exhaustion",
+            "Mind"
+        ],
+        "active": true
+    },
+    {
+        "id": 85,
+        "text": "Maybe the problem is not what happened, but how much you keep replaying it.",
+        "category": 9,
+        "author": null,
+        "tags": [
+            "Reflection",
+            "Mind"
+        ],
+        "active": true
+    },
+    {
+        "id": 86,
+        "text": "You are trying to control things that have not even happened yet.",
+        "category": 9,
+        "author": null,
+        "tags": [
+            "Control",
+            "Anxiety"
+        ],
+        "active": true
+    },
+    {
+        "id": 87,
+        "text": "Not every silence means something bad.",
+        "category": 9,
+        "author": null,
+        "tags": [
+            "Interpretation",
+            "Mind"
+        ],
+        "active": true
+    },
+    {
+        "id": 88,
+        "text": "You are looking for answers where there may not even be a question.",
+        "category": 9,
+        "author": null,
+        "tags": [
+            "Reflection",
+            "Confusion"
+        ],
+        "active": true
+    },
+    {
+        "id": 89,
+        "text": "Sometimes your mind just needs rest.",
+        "category": 9,
+        "author": null,
+        "tags": [
+            "Calm",
+            "Mind"
+        ],
+        "active": true
+    },
+    {
+        "id": 90,
+        "text": "You do not need to find meaning in everything right now.",
+        "category": 9,
+        "author": null,
+        "tags": [
+            "Acceptance",
+            "Present"
+        ],
+        "active": true
+    },
+    {
+        "id": 91,
+        "text": "Starting over is also a way of winning.",
+        "category": 10,
+        "author": null,
+        "tags": [
+            "New Beginning",
+            "Strength"
+        ],
+        "active": true
+    },
+    {
+        "id": 92,
+        "text": "You can start over as many times as you need.",
+        "category": 10,
+        "author": null,
+        "tags": [
+            "New Beginning",
+            "Freedom"
+        ],
+        "active": true
+    },
+    {
+        "id": 93,
+        "text": "Not everything that ends is a loss.",
+        "category": 10,
+        "author": null,
+        "tags": [
+            "Cycle",
+            "New Beginning"
+        ],
+        "active": true
+    },
+    {
+        "id": 94,
+        "text": "You do not need to keep being who you used to be.",
+        "category": 10,
+        "author": null,
+        "tags": [
+            "Change",
+            "Identity"
+        ],
+        "active": true
+    },
+    {
+        "id": 95,
+        "text": "Maybe this is your moment to start over.",
+        "category": 10,
+        "author": null,
+        "tags": [
+            "New Beginning",
+            "Reflection"
+        ],
+        "active": true
+    },
+    {
+        "id": 96,
+        "text": "Leaving things behind is also part of moving forward.",
+        "category": 10,
+        "author": null,
+        "tags": [
+            "Letting Go",
+            "New Beginning"
+        ],
+        "active": true
+    },
+    {
+        "id": 97,
+        "text": "You still have time to change your story.",
+        "category": 10,
+        "author": null,
+        "tags": [
+            "Future",
+            "New Beginning"
+        ],
+        "active": true
+    },
+    {
+        "id": 98,
+        "text": "The end of one phase can be the beginning of something better.",
+        "category": 10,
+        "author": null,
+        "tags": [
+            "Cycle",
+            "Hope"
+        ],
+        "active": true
+    },
+    {
+        "id": 99,
+        "text": "You are not behind, you are just starting over in your own time.",
+        "category": 10,
+        "author": null,
+        "tags": [
+            "Time",
+            "New Beginning"
+        ],
+        "active": true
+    },
+    {
+        "id": 100,
+        "text": "Starting over takes courage, and you already have that.",
+        "category": 10,
+        "author": null,
+        "tags": [
+            "Courage",
+            "Strength"
+        ],
+        "active": true
+    }
+]

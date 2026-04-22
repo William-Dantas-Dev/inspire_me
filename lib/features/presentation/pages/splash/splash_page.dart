@@ -4,6 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../../application/startup/app_startup_provider.dart';
 import '../../../application/startup/app_startup_state.dart';
+import '../../../data/quotes/models/quote_model.dart';
+import '../../../data/quotes/providers/quotes_provider.dart';
 
 class SplashPage extends ConsumerStatefulWidget {
   const SplashPage({super.key});
@@ -13,29 +15,15 @@ class SplashPage extends ConsumerStatefulWidget {
 }
 
 class _SplashPageState extends ConsumerState<SplashPage> {
-  bool _didListen = false;
+  bool _printedRandomQuote = false;
+
   @override
   void initState() {
     super.initState();
 
-    Future.microtask(() {
-      ref.read(appStartupProvider.notifier).initialize();
-    });
-  }
-
-  @override
-  void didChangeDependencies() {
-    super.didChangeDependencies();
-
-    if (_didListen) return;
-    _didListen = true;
-
-    ref.listen<AppStartupState>(appStartupProvider, (previous, next) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted) return;
-
-      if (next.status == AppStartupStatus.ready) {
-        // Navigator.of(context,).pushReplacement(MaterialPageRoute(builder: (_) => const HomePage()));
-      }
+      ref.read(appStartupProvider.notifier).initialize();
     });
   }
 
@@ -44,7 +32,48 @@ class _SplashPageState extends ConsumerState<SplashPage> {
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
     final l10n = AppLocalizations.of(context)!;
+
     final startupState = ref.watch(appStartupProvider);
+    final quotesAsync = ref.watch(quotesProvider);
+
+    ref.listen<AppStartupState>(appStartupProvider, (previous, next) {
+      if (!mounted) return;
+
+      if (next.status == AppStartupStatus.ready) {
+        print('🚀 App Ready');
+      }
+
+      if (next.status == AppStartupStatus.error) {
+        print('❌ Startup Error: ${next.errorMessage}');
+      }
+    });
+
+    ref.listen<AsyncValue<List<QuoteModel>>>(quotesProvider, (previous, next) {
+      next.when(
+        data: (quotes) {
+          print('✅ Quotes loaded: ${quotes.length}');
+
+          if (quotes.isEmpty) {
+            print('⚠️ Quotes list is empty');
+            return;
+          }
+
+          if (_printedRandomQuote) return;
+          _printedRandomQuote = true;
+
+          final shuffled = [...quotes]..shuffle();
+          final randomQuote = shuffled.first;
+
+          print('🎯 Random Quote: ${randomQuote.text}');
+        },
+        loading: () {
+          print('⏳ Loading quotes...');
+        },
+        error: (error, stackTrace) {
+          print('❌ Quotes Error: $error');
+        },
+      );
+    });
 
     return Scaffold(
       body: Container(
@@ -112,9 +141,11 @@ class _SplashPageState extends ConsumerState<SplashPage> {
                 ),
                 const SizedBox(height: 20),
                 Text(
-                  startupState.status == AppStartupStatus.error
-                      ? (startupState.errorMessage ?? l10n.loading)
-                      : l10n.loading,
+                  _buildStatusText(
+                    l10n: l10n,
+                    startupState: startupState,
+                    quotesAsync: quotesAsync,
+                  ),
                   style: theme.textTheme.bodyMedium?.copyWith(
                     color: colorScheme.onSurface.withValues(alpha: 0.72),
                     fontWeight: FontWeight.w500,
@@ -127,6 +158,22 @@ class _SplashPageState extends ConsumerState<SplashPage> {
           ),
         ),
       ),
+    );
+  }
+
+  String _buildStatusText({
+    required AppLocalizations l10n,
+    required AppStartupState startupState,
+    required AsyncValue<List<QuoteModel>> quotesAsync,
+  }) {
+    if (startupState.status == AppStartupStatus.error) {
+      return startupState.errorMessage ?? 'Startup error';
+    }
+
+    return quotesAsync.when(
+      data: (quotes) => 'Quotes loaded: ${quotes.length}',
+      loading: () => l10n.loading,
+      error: (error, stackTrace) => 'Quotes error: $error',
     );
   }
 }

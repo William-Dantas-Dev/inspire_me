@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "label": "Motivação"
+  },
+  {
+    "id": 2,
+    "label": "Ansiedade"
+  },
+  {
+    "id": 3,
+    "label": "Autoestima"
+  },
+  {
+    "id": 4,
+    "label": "Solidão"
+  },
+  {
+    "id": 5,
+    "label": "Superação"
+  },
+  {
+    "id": 6,
+    "label": "Amor"
+  },
+  {
+    "id": 7,
+    "label": "Término"
+  },
+  {
+    "id": 8,
+    "label": "Esperança"
+  },
+  {
+    "id": 9,
+    "label": "Pensamentos em Excesso"
+  },
+  {
+    "id": 10,
+    "label": "Recomeço"
+  }
+]

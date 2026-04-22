@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "label": "Motivation"
+    },
+    {
+        "id": 2,
+        "label": "Anxiety"
+    },
+    {
+        "id": 3,
+        "label": "Self-Esteem"
+    },
+    {
+        "id": 4,
+        "label": "Loneliness"
+    },
+    {
+        "id": 5,
+        "label": "Overcoming"
+    },
+    {
+        "id": 6,
+        "label": "Love"
+    },
+    {
+        "id": 7,
+        "label": "Breakup"
+    },
+    {
+        "id": 8,
+        "label": "Hope"
+    },
+    {
+        "id": 9,
+        "label": "Overthinking"
+    },
+    {
+        "id": 10,
+        "label": "New Beginning"
+    }
+]

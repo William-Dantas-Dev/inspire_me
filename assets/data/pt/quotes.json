@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "text": "Você não precisa estar motivado, só precisa continuar.",
+    "category": 1,
+    "author": null,
+    "tags": [
+      "Disciplina",
+      "Persistência"
+    ],
+    "active": true
+  },
+  {
+    "id": 2,
+    "text": "Pequenos passos ainda são progresso.",
+    "category": 1,
+    "author": null,
+    "tags": [
+      "Progresso",
+      "Constância"
+    ],
+    "active": true
+  },
+  {
+    "id": 3,
+    "text": "Você já venceu dias mais difíceis que este.",
+    "category": 1,
+    "author": null,
+    "tags": [
+      "Força",
+      "Superação"
+    ],
+    "active": true
+  },
+  {
+    "id": 4,
+    "text": "O esforço de hoje constrói o resultado de amanhã.",
+    "category": 1,
+    "author": null,
+    "tags": [
+      "Esforço",
+      "Futuro"
+    ],
+    "active": true
+  },
+  {
+    "id": 5,
+    "text": "Mesmo devagar, você ainda está indo pra frente.",
+    "category": 1,
+    "author": null,
+    "tags": [
+      "Persistência",
+      "Progresso"
+    ],
+    "active": true
+  },
+  {
+    "id": 6,
+    "text": "Disciplina te leva onde a motivação não chega.",
+    "category": 1,
+    "author": null,
+    "tags": [
+      "Disciplina",
+      "Foco"
+    ],
+    "active": true
+  },
+  {
+    "id": 7,
+    "text": "Não pare agora. Você já chegou longe demais.",
+    "category": 1,
+    "author": null,
+    "tags": [
+      "Persistência",
+      "Força"
+    ],
+    "active": true
+  },
+  {
+    "id": 8,
+    "text": "Você não precisa ser perfeito, só consistente.",
+    "category": 1,
+    "author": null,
+    "tags": [
+      "Consistência",
+      "Evolução"
+    ],
+    "active": true
+  },
+  {
+    "id": 9,
+    "text": "Continue. Um dia você vai agradecer por não ter desistido.",
+    "category": 1,
+    "author": null,
+    "tags": [
+      "Persistência",
+      "Futuro"
+    ],
+    "active": true
+  },
+  {
+    "id": 10,
+    "text": "Fazer o básico bem feito já te coloca à frente de muitos.",
+    "category": 1,
+    "author": null,
+    "tags": [
+      "Disciplina",
+      "Constância"
+    ],
+    "active": true
+  },
+  {
+    "id": 11,
+    "text": "Respira. Nem tudo precisa ser resolvido agora.",
+    "category": 2,
+    "author": null,
+    "tags": [
+      "Calma",
+      "Presente"
+    ],
+    "active": true
+  },
+  {
+    "id": 12,
+    "text": "Sua mente está acelerada, mas isso não significa que algo está errado.",
+    "category": 2,
+    "author": null,
+    "tags": [
+      "Ansiedade",
+      "Consciência"
+    ],
+    "active": true
+  },
+  {
+    "id": 13,
+    "text": "Nem todo pensamento merece sua atenção.",
+    "category": 2,
+    "author": null,
+    "tags": [
+      "Controle",
+      "Mente"
+    ],
+    "active": true
+  },
+  {
+    "id": 14,
+    "text": "Você não precisa ter tudo sob controle o tempo todo.",
+    "category": 2,
+    "author": null,
+    "tags": [
+      "Controle",
+      "Aceitação"
+    ],
+    "active": true
+  },
+  {
+    "id": 15,
+    "text": "Isso que você está sentindo vai passar, mesmo que pareça intenso agora.",
+    "category": 2,
+    "author": null,
+    "tags": [
+      "Calma",
+      "Esperança"
+    ],
+    "active": true
+  },
+  {
+    "id": 16,
+    "text": "Você está seguro agora. Foque no presente.",
+    "category": 2,
+    "author": null,
+    "tags": [
+      "Presente",
+      "Segurança"
+    ],
+    "active": true
+  },
+  {
+    "id": 17,
+    "text": "Sua mente pode exagerar, mas nem tudo que você pensa é verdade.",
+    "category": 2,
+    "author": null,
+    "tags": [
+      "Mente",
+      "Realidade"
+    ],
+    "active": true
+  },
+  {
+    "id": 18,
+    "text": "Um passo de cada vez já é o suficiente.",
+    "category": 2,
+    "author": null,
+    "tags": [
+      "Calma",
+      "Processo"
+    ],
+    "active": true
+  },
+  {
+    "id": 19,
+    "text": "Você não está atrasado. Cada pessoa tem seu tempo.",
+    "category": 2,
+    "author": null,
+    "tags": [
+      "Comparação",
+      "Aceitação"
+    ],
+    "active": true
+  },
+  {
+    "id": 20,
+    "text": "Tente desacelerar. Nem tudo precisa acontecer hoje.",
+    "category": 2,
+    "author": null,
+    "tags": [
+      "Calma",
+      "Tempo"
+    ],
+    "active": true
+  },
+  {
+    "id": 21,
+    "text": "Você não precisa se diminuir para caber na vida de alguém.",
+    "category": 3,
+    "author": null,
+    "tags": [
+      "Valor Próprio",
+      "Respeito"
+    ],
+    "active": true
+  },
+  {
+    "id": 22,
+    "text": "Você merece o mesmo amor que oferece aos outros.",
+    "category": 3,
+    "author": null,
+    "tags": [
+      "Amor Próprio",
+      "Valor"
+    ],
+    "active": true
+  },
+  {
+    "id": 23,
+    "text": "Nem todo mundo vai te reconhecer, e tudo bem.",
+    "category": 3,
+    "author": null,
+    "tags": [
+      "Aceitação",
+      "Autoconfiança"
+    ],
+    "active": true
+  },
+  {
+    "id": 24,
+    "text": "Você não precisa provar nada para ninguém.",
+    "category": 3,
+    "author": null,
+    "tags": [
+      "Confiança",
+      "Independência"
+    ],
+    "active": true
+  },
+  {
+    "id": 25,
+    "text": "Ser você mesmo já é suficiente.",
+    "category": 3,
+    "author": null,
+    "tags": [
+      "Aceitação",
+      "Identidade"
+    ],
+    "active": true
+  },
+  {
+    "id": 26,
+    "text": "Você não é seus erros, você é o que aprende com eles.",
+    "category": 3,
+    "author": null,
+    "tags": [
+      "Aprendizado",
+      "Crescimento"
+    ],
+    "active": true
+  },
+  {
+    "id": 27,
+    "text": "Se valorizar não é egoísmo, é necessidade.",
+    "category": 3,
+    "author": null,
+    "tags": [
+      "Amor Próprio",
+      "Consciência"
+    ],
+    "active": true
+  },
+  {
+    "id": 28,
+    "text": "Você merece estar em lugares onde se sente bem.",
+    "category": 3,
+    "author": null,
+    "tags": [
+      "Bem-estar",
+      "Valor"
+    ],
+    "active": true
+  },
+  {
+    "id": 29,
+    "text": "Nem todo mundo precisa gostar de você para você ter valor.",
+    "category": 3,
+    "author": null,
+    "tags": [
+      "Autoconfiança",
+      "Aceitação"
+    ],
+    "active": true
+  },
+  {
+    "id": 30,
+    "text": "Você é mais do que aquilo que pensa sobre si mesmo nos dias ruins.",
+    "category": 3,
+    "author": null,
+    "tags": [
+      "Valor Próprio",
+      "Consciência"
+    ],
+    "active": true
+  },
+  {
+    "id": 31,
+    "text": "Às vezes, o silêncio é mais barulhento do que qualquer conversa.",
+    "category": 4,
+    "author": null,
+    "tags": [
+      "Silêncio",
+      "Sentimento"
+    ],
+    "active": true
+  },
+  {
+    "id": 32,
+    "text": "Estar rodeado de pessoas não significa não se sentir sozinho.",
+    "category": 4,
+    "author": null,
+    "tags": [
+      "Isolamento",
+      "Emoção"
+    ],
+    "active": true
+  },
+  {
+    "id": 33,
+    "text": "Tem dias que tudo o que você quer é alguém que realmente entenda.",
+    "category": 4,
+    "author": null,
+    "tags": [
+      "Compreensão",
+      "Sentimento"
+    ],
+    "active": true
+  },
+  {
+    "id": 34,
+    "text": "Você aprende a lidar com a solidão, mas isso não significa que ela não dói.",
+    "category": 4,
+    "author": null,
+    "tags": [
+      "Dor",
+      "Aceitação"
+    ],
+    "active": true
+  },
+  {
+    "id": 35,
+    "text": "Ninguém percebe quando você está em silêncio demais.",
+    "category": 4,
+    "author": null,
+    "tags": [
+      "Silêncio",
+      "Invisível"
+    ],
+    "active": true
+  },
+  {
+    "id": 36,
+    "text": "Às vezes, tudo o que falta é alguém que fique.",
+    "category": 4,
+    "author": null,
+    "tags": [
+      "Ausência",
+      "Conexão"
+    ],
+    "active": true
+  },
+  {
+    "id": 37,
+    "text": "Você se acostuma com a ausência, mas nunca com a falta.",
+    "category": 4,
+    "author": null,
+    "tags": [
+      "Ausência",
+      "Saudade"
+    ],
+    "active": true
+  },
+  {
+    "id": 38,
+    "text": "Tem noites em que a solidão parece maior do que tudo.",
+    "category": 4,
+    "author": null,
+    "tags": [
+      "Noite",
+      "Solidão"
+    ],
+    "active": true
+  },
+  {
+    "id": 39,
+    "text": "Nem sempre você quer estar sozinho, mas acaba ficando.",
+    "category": 4,
+    "author": null,
+    "tags": [
+      "Isolamento",
+      "Sentimento"
+    ],
+    "active": true
+  },
+  {
+    "id": 40,
+    "text": "O pior tipo de solidão é não se sentir pertencente a lugar nenhum.",
+    "category": 4,
+    "author": null,
+    "tags": [
+      "Pertencimento",
+      "Emoção"
+    ],
+    "active": true
+  },
+  {
+    "id": 41,
+    "text": "Você não saiu dessa versão de você à toa.",
+    "category": 5,
+    "author": null,
+    "tags": [
+      "Crescimento",
+      "Evolução"
+    ],
+    "active": true
+  },
+  {
+    "id": 42,
+    "text": "Algumas fases são difíceis, mas são elas que te transformam.",
+    "category": 5,
+    "author": null,
+    "tags": [
+      "Transformação",
+      "Processo"
+    ],
+    "active": true
+  },
+  {
+    "id": 43,
+    "text": "Você já superou coisas que um dia achou que não conseguiria.",
+    "category": 5,
+    "author": null,
+    "tags": [
+      "Força",
+      "Superação"
+    ],
+    "active": true
+  },
+  {
+    "id": 44,
+    "text": "Não foi fácil, mas você conseguiu chegar até aqui.",
+    "category": 5,
+    "author": null,
+    "tags": [
+      "Persistência",
+      "Força"
+    ],
+    "active": true
+  },
+  {
+    "id": 45,
+    "text": "Cicatrizes também contam histórias de vitória.",
+    "category": 5,
+    "author": null,
+    "tags": [
+      "Resiliência",
+      "História"
+    ],
+    "active": true
+  },
+  {
+    "id": 46,
+    "text": "Cada queda te ensinou algo que te fez mais forte.",
+    "category": 5,
+    "author": null,
+    "tags": [
+      "Aprendizado",
+      "Força"
+    ],
+    "active": true
+  },
+  {
+    "id": 47,
+    "text": "Você não é mais a mesma pessoa de antes, e isso é bom.",
+    "category": 5,
+    "author": null,
+    "tags": [
+      "Mudança",
+      "Evolução"
+    ],
+    "active": true
+  },
+  {
+    "id": 48,
+    "text": "O que te quebrou também te reconstruiu.",
+    "category": 5,
+    "author": null,
+    "tags": [
+      "Reconstrução",
+      "Força"
+    ],
+    "active": true
+  },
+  {
+    "id": 49,
+    "text": "Você aprendeu a se levantar mesmo sem ajuda.",
+    "category": 5,
+    "author": null,
+    "tags": [
+      "Independência",
+      "Força"
+    ],
+    "active": true
+  },
+  {
+    "id": 50,
+    "text": "Nada do que você enfrentou foi em vão.",
+    "category": 5,
+    "author": null,
+    "tags": [
+      "Propósito",
+      "Superação"
+    ],
+    "active": true
+  },
+  {
+    "id": 51,
+    "text": "Amar também é saber quando parar de insistir.",
+    "category": 6,
+    "author": null,
+    "tags": [
+      "Amor",
+      "Limites"
+    ],
+    "active": true
+  },
+  {
+    "id": 52,
+    "text": "Nem todo amor é recíproco, e isso dói mais do que deveria.",
+    "category": 6,
+    "author": null,
+    "tags": [
+      "Amor",
+      "Decepção"
+    ],
+    "active": true
+  },
+  {
+    "id": 53,
+    "text": "Você merece um amor que não te faça duvidar.",
+    "category": 6,
+    "author": null,
+    "tags": [
+      "Amor",
+      "Segurança"
+    ],
+    "active": true
+  },
+  {
+    "id": 54,
+    "text": "Amor não deveria ser confuso o tempo todo.",
+    "category": 6,
+    "author": null,
+    "tags": [
+      "Amor",
+      "Reflexão"
+    ],
+    "active": true
+  },
+  {
+    "id": 55,
+    "text": "Às vezes, o sentimento existe, mas a pessoa não sabe lidar com ele.",
+    "category": 6,
+    "author": null,
+    "tags": [
+      "Amor",
+      "Confusão"
+    ],
+    "active": true
+  },
+  {
+    "id": 56,
+    "text": "Você não precisa implorar por algo que deveria ser natural.",
+    "category": 6,
+    "author": null,
+    "tags": [
+      "Amor Próprio",
+      "Limites"
+    ],
+    "active": true
+  },
+  {
+    "id": 57,
+    "text": "Amar sozinho cansa mais do que parece.",
+    "category": 6,
+    "author": null,
+    "tags": [
+      "Amor",
+      "Cansaço"
+    ],
+    "active": true
+  },
+  {
+    "id": 58,
+    "text": "Nem todo mundo que você ama vai saber te amar de volta.",
+    "category": 6,
+    "author": null,
+    "tags": [
+      "Amor",
+      "Realidade"
+    ],
+    "active": true
+  },
+  {
+    "id": 59,
+    "text": "Às vezes, deixar ir também é uma forma de amar.",
+    "category": 6,
+    "author": null,
+    "tags": [
+      "Amor",
+      "Desapego"
+    ],
+    "active": true
+  },
+  {
+    "id": 60,
+    "text": "O amor certo não te faz sentir inseguro o tempo todo.",
+    "category": 6,
+    "author": null,
+    "tags": [
+      "Amor",
+      "Segurança"
+    ],
+    "active": true
+  },
+  {
+    "id": 61,
+    "text": "O mais difícil não foi o fim, foi se acostumar com a ausência.",
+    "category": 7,
+    "author": null,
+    "tags": [
+      "Término",
+      "Saudade"
+    ],
+    "active": true
+  },
+  {
+    "id": 62,
+    "text": "Você ainda sente falta, mesmo sabendo que não dava certo.",
+    "category": 7,
+    "author": null,
+    "tags": [
+      "Saudade",
+      "Conflito"
+    ],
+    "active": true
+  },
+  {
+    "id": 63,
+    "text": "Nem todo término acontece porque o amor acabou.",
+    "category": 7,
+    "author": null,
+    "tags": [
+      "Amor",
+      "Realidade"
+    ],
+    "active": true
+  },
+  {
+    "id": 64,
+    "text": "Você teve que ir embora, mesmo querendo ficar.",
+    "category": 7,
+    "author": null,
+    "tags": [
+      "Decisão",
+      "Dor"
+    ],
+    "active": true
+  },
+  {
+    "id": 65,
+    "text": "Algumas pessoas entram na sua vida só para te ensinar a ir embora.",
+    "category": 7,
+    "author": null,
+    "tags": [
+      "Aprendizado",
+      "Desapego"
+    ],
+    "active": true
+  },
+  {
+    "id": 66,
+    "text": "Você relembra mais do que deveria, e isso ainda dói.",
+    "category": 7,
+    "author": null,
+    "tags": [
+      "Memória",
+      "Dor"
+    ],
+    "active": true
+  },
+  {
+    "id": 67,
+    "text": "Nem sempre fechar um ciclo traz alívio imediato.",
+    "category": 7,
+    "author": null,
+    "tags": [
+      "Ciclo",
+      "Processo"
+    ],
+    "active": true
+  },
+  {
+    "id": 68,
+    "text": "Você sente falta da pessoa ou da versão de vocês dois?",
+    "category": 7,
+    "author": null,
+    "tags": [
+      "Reflexão",
+      "Saudade"
+    ],
+    "active": true
+  },
+  {
+    "id": 69,
+    "text": "Às vezes, o amor acaba, mas o sentimento fica.",
+    "category": 7,
+    "author": null,
+    "tags": [
+      "Amor",
+      "Saudade"
+    ],
+    "active": true
+  },
+  {
+    "id": 70,
+    "text": "Superar não é esquecer, é aprender a viver sem.",
+    "category": 7,
+    "author": null,
+    "tags": [
+      "Superação",
+      "Aceitação"
+    ],
+    "active": true
+  },
+  {
+    "id": 71,
+    "text": "Dias melhores estão chegando, mesmo que você ainda não veja.",
+    "category": 8,
+    "author": null,
+    "tags": [
+      "Esperança",
+      "Futuro"
+    ],
+    "active": true
+  },
+  {
+    "id": 72,
+    "text": "Nem toda fase difícil dura para sempre.",
+    "category": 8,
+    "author": null,
+    "tags": [
+      "Tempo",
+      "Esperança"
+    ],
+    "active": true
+  },
+  {
+    "id": 73,
+    "text": "Você ainda vai viver coisas que vão fazer tudo valer a pena.",
+    "category": 8,
+    "author": null,
+    "tags": [
+      "Futuro",
+      "Motivação"
+    ],
+    "active": true
+  },
+  {
+    "id": 74,
+    "text": "Talvez o que você espera esteja mais perto do que imagina.",
+    "category": 8,
+    "author": null,
+    "tags": [
+      "Esperança",
+      "Futuro"
+    ],
+    "active": true
+  },
+  {
+    "id": 75,
+    "text": "Tudo bem não estar bem agora. Isso não define o seu futuro.",
+    "category": 8,
+    "author": null,
+    "tags": [
+      "Aceitação",
+      "Esperança"
+    ],
+    "active": true
+  },
+  {
+    "id": 76,
+    "text": "A vida ainda pode te surpreender de formas boas.",
+    "category": 8,
+    "author": null,
+    "tags": [
+      "Futuro",
+      "Surpresa"
+    ],
+    "active": true
+  },
+  {
+    "id": 77,
+    "text": "Nem tudo está perdido, mesmo que pareça.",
+    "category": 8,
+    "author": null,
+    "tags": [
+      "Esperança",
+      "Força"
+    ],
+    "active": true
+  },
+  {
+    "id": 78,
+    "text": "Você ainda tem muitas páginas bonitas para escrever.",
+    "category": 8,
+    "author": null,
+    "tags": [
+      "Futuro",
+      "Recomeço"
+    ],
+    "active": true
+  },
+  {
+    "id": 79,
+    "text": "O que hoje parece confuso, amanhã pode fazer sentido.",
+    "category": 8,
+    "author": null,
+    "tags": [
+      "Tempo",
+      "Reflexão"
+    ],
+    "active": true
+  },
+  {
+    "id": 80,
+    "text": "Você ainda vai se orgulhar de não ter desistido.",
+    "category": 8,
+    "author": null,
+    "tags": [
+      "Persistência",
+      "Futuro"
+    ],
+    "active": true
+  },
+  {
+    "id": 81,
+    "text": "Você pensou tanto que transformou algo simples em um problema.",
+    "category": 9,
+    "author": null,
+    "tags": [
+      "Mente",
+      "Ansiedade"
+    ],
+    "active": true
+  },
+  {
+    "id": 82,
+    "text": "Nem tudo que você imagina está realmente acontecendo.",
+    "category": 9,
+    "author": null,
+    "tags": [
+      "Mente",
+      "Realidade"
+    ],
+    "active": true
+  },
+  {
+    "id": 83,
+    "text": "Você está criando cenários que ainda nem existem.",
+    "category": 9,
+    "author": null,
+    "tags": [
+      "Imaginação",
+      "Ansiedade"
+    ],
+    "active": true
+  },
+  {
+    "id": 84,
+    "text": "Pensar demais também cansa.",
+    "category": 9,
+    "author": null,
+    "tags": [
+      "Cansaço",
+      "Mente"
+    ],
+    "active": true
+  },
+  {
+    "id": 85,
+    "text": "Talvez o problema não seja o que aconteceu, mas o quanto você repensa isso.",
+    "category": 9,
+    "author": null,
+    "tags": [
+      "Reflexão",
+      "Mente"
+    ],
+    "active": true
+  },
+  {
+    "id": 86,
+    "text": "Você está tentando controlar coisas que nem aconteceram ainda.",
+    "category": 9,
+    "author": null,
+    "tags": [
+      "Controle",
+      "Ansiedade"
+    ],
+    "active": true
+  },
+  {
+    "id": 87,
+    "text": "Nem todo silêncio significa algo ruim.",
+    "category": 9,
+    "author": null,
+    "tags": [
+      "Interpretação",
+      "Mente"
+    ],
+    "active": true
+  },
+  {
+    "id": 88,
+    "text": "Você está buscando respostas onde talvez não exista pergunta.",
+    "category": 9,
+    "author": null,
+    "tags": [
+      "Reflexão",
+      "Confusão"
+    ],
+    "active": true
+  },
+  {
+    "id": 89,
+    "text": "Às vezes, sua mente só precisa descansar.",
+    "category": 9,
+    "author": null,
+    "tags": [
+      "Calma",
+      "Mente"
+    ],
+    "active": true
+  },
+  {
+    "id": 90,
+    "text": "Você não precisa encontrar sentido em tudo agora.",
+    "category": 9,
+    "author": null,
+    "tags": [
+      "Aceitação",
+      "Presente"
+    ],
+    "active": true
+  },
+  {
+    "id": 91,
+    "text": "Recomeçar também é uma forma de vencer.",
+    "category": 10,
+    "author": null,
+    "tags": [
+      "Recomeço",
+      "Força"
+    ],
+    "active": true
+  },
+  {
+    "id": 92,
+    "text": "Você pode começar de novo quantas vezes precisar.",
+    "category": 10,
+    "author": null,
+    "tags": [
+      "Recomeço",
+      "Liberdade"
+    ],
+    "active": true
+  },
+  {
+    "id": 93,
+    "text": "Nem tudo que termina é perda.",
+    "category": 10,
+    "author": null,
+    "tags": [
+      "Ciclo",
+      "Recomeço"
+    ],
+    "active": true
+  },
+  {
+    "id": 94,
+    "text": "Você não precisa continuar sendo quem você era antes.",
+    "category": 10,
+    "author": null,
+    "tags": [
+      "Mudança",
+      "Identidade"
+    ],
+    "active": true
+  },
+  {
+    "id": 95,
+    "text": "Talvez esse seja o seu momento de recomeçar.",
+    "category": 10,
+    "author": null,
+    "tags": [
+      "Recomeço",
+      "Reflexão"
+    ],
+    "active": true
+  },
+  {
+    "id": 96,
+    "text": "Deixar para trás também faz parte de seguir em frente.",
+    "category": 10,
+    "author": null,
+    "tags": [
+      "Desapego",
+      "Recomeço"
+    ],
+    "active": true
+  },
+  {
+    "id": 97,
+    "text": "Você ainda tem tempo de mudar a sua história.",
+    "category": 10,
+    "author": null,
+    "tags": [
+      "Futuro",
+      "Recomeço"
+    ],
+    "active": true
+  },
+  {
+    "id": 98,
+    "text": "O fim de uma fase pode ser o começo de algo melhor.",
+    "category": 10,
+    "author": null,
+    "tags": [
+      "Ciclo",
+      "Esperança"
+    ],
+    "active": true
+  },
+  {
+    "id": 99,
+    "text": "Você não está atrasado, só está recomeçando no seu tempo.",
+    "category": 10,
+    "author": null,
+    "tags": [
+      "Tempo",
+      "Recomeço"
+    ],
+    "active": true
+  },
+  {
+    "id": 100,
+    "text": "Recomeçar exige coragem, e você já tem isso.",
+    "category": 10,
+    "author": null,
+    "tags": [
+      "Coragem",
+      "Força"
+    ],
+    "active": true
+  }
+]
