@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../../core/providers/shared_preferences_provider.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../../application/startup/app_startup_provider.dart';
 import '../../../application/startup/app_startup_state.dart';
 import '../../../data/quotes/models/quote_model.dart';
 import '../../../data/quotes/providers/quotes_provider.dart';
+import '../../../data/services/notification_preferences_service.dart';
+import '../../../data/services/notification_service.dart';
 
 class SplashPage extends ConsumerStatefulWidget {
   const SplashPage({super.key});
@@ -15,7 +18,7 @@ class SplashPage extends ConsumerStatefulWidget {
 }
 
 class _SplashPageState extends ConsumerState<SplashPage> {
-  bool _printedRandomQuote = false;
+  bool _processedNotifications = false;
 
   @override
   void initState() {
@@ -41,6 +44,7 @@ class _SplashPageState extends ConsumerState<SplashPage> {
 
       if (next.status == AppStartupStatus.ready) {
         print('🚀 App Ready');
+        // TODO NAVIGATE TO HOME
       }
 
       if (next.status == AppStartupStatus.error) {
@@ -50,25 +54,30 @@ class _SplashPageState extends ConsumerState<SplashPage> {
 
     ref.listen<AsyncValue<List<QuoteModel>>>(quotesProvider, (previous, next) {
       next.when(
-        data: (quotes) {
-          print('✅ Quotes loaded: ${quotes.length}');
+        data: (quotes) async {
+          if (quotes.isEmpty || _processedNotifications) return;
 
-          if (quotes.isEmpty) {
-            print('⚠️ Quotes list is empty');
-            return;
-          }
+          _processedNotifications = true;
 
-          if (_printedRandomQuote) return;
-          _printedRandomQuote = true;
+          final messages = quotes.map((quote) => quote.text).toList();
+          final prefs = ref.read(sharedPreferencesProvider);
+          final notificationPreferences = NotificationPreferencesService(prefs);
 
-          final shuffled = [...quotes]..shuffle();
-          final randomQuote = shuffled.first;
+          await NotificationService.instance.replenishQueue(
+            title: l10n.appName,
+            messages: messages,
+            preferences: notificationPreferences,
+            targetCount: 20,
+            intervalHours: 3,
+          );
 
-          print('🎯 Random Quote: ${randomQuote.text}');
+          final pendingCount = await NotificationService.instance
+              .getPendingCount();
+
+          print('⏰ Notification queue replenished');
+          print('📌 Pending notifications: $pendingCount');
         },
-        loading: () {
-          print('⏳ Loading quotes...');
-        },
+        loading: () {},
         error: (error, stackTrace) {
           print('❌ Quotes Error: $error');
         },
@@ -171,7 +180,7 @@ class _SplashPageState extends ConsumerState<SplashPage> {
     }
 
     return quotesAsync.when(
-      data: (quotes) => 'Quotes loaded: ${quotes.length}',
+      data: (quotes) => 'Quotes loading...',
       loading: () => l10n.loading,
       error: (error, stackTrace) => 'Quotes error: $error',
     );
