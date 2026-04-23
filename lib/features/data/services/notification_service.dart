@@ -2,7 +2,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
-
+import '../notifications/models/notification_settings_model.dart';
 import 'notification_preferences_service.dart';
 
 class NotificationService {
@@ -68,8 +68,8 @@ class NotificationService {
     await androidImplementation?.requestNotificationsPermission();
   }
 
-  NotificationDetails _notificationDetails() {
-    return const NotificationDetails(
+  NotificationDetails _notificationDetails({required bool vibrate}) {
+    return NotificationDetails(
       android: AndroidNotificationDetails(
         _channelId,
         _channelName,
@@ -77,6 +77,7 @@ class NotificationService {
         importance: Importance.high,
         priority: Priority.high,
         icon: '@drawable/ic_notification',
+        enableVibration: vibrate,
       ),
     );
   }
@@ -85,10 +86,16 @@ class NotificationService {
     required String title,
     required List<String> messages,
     required NotificationPreferencesService preferences,
+    required NotificationSettingsModel settings,
     int targetCount = 20,
     int intervalHours = 3,
   }) async {
     if (messages.isEmpty) return;
+
+    if (!settings.enabled) {
+      await cancelAll(preferences: preferences);
+      return;
+    }
 
     final pending = await _plugin.pendingNotificationRequests();
     final pendingCount = pending.length;
@@ -111,10 +118,25 @@ class NotificationService {
       cursor = now;
     }
 
+    cursor = _normalizeCursorToWindow(
+      cursor,
+      startHour: settings.startHour,
+      startMinute: settings.startMinute,
+      endHour: settings.endHour,
+      endMinute: settings.endMinute,
+    );
+
     var nextId = preferences.getNextNotificationId();
 
     for (int i = 0; i < missingCount; i++) {
-      cursor = cursor.add(Duration(hours: intervalHours));
+      cursor = _nextValidScheduledDate(
+        from: cursor,
+        intervalHours: intervalHours,
+        startHour: settings.startHour,
+        startMinute: settings.startMinute,
+        endHour: settings.endHour,
+        endMinute: settings.endMinute,
+      );
 
       final messageIndex = (nextId - 1000) % messages.length;
       final message = messages[messageIndex];
@@ -122,7 +144,7 @@ class NotificationService {
       await _plugin.zonedSchedule(
         id: nextId,
         scheduledDate: cursor,
-        notificationDetails: _notificationDetails(),
+        notificationDetails: _notificationDetails(vibrate: settings.vibrate),
         androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
         title: title,
         body: message,
@@ -134,6 +156,119 @@ class NotificationService {
 
     await preferences.saveLastScheduledAt(cursor);
     await preferences.saveNextNotificationId(nextId);
+  }
+
+  tz.TZDateTime _normalizeCursorToWindow(
+    tz.TZDateTime dateTime, {
+    required int startHour,
+    required int startMinute,
+    required int endHour,
+    required int endMinute,
+  }) {
+    final start = tz.TZDateTime(
+      tz.local,
+      dateTime.year,
+      dateTime.month,
+      dateTime.day,
+      startHour,
+      startMinute,
+    );
+
+    final end = tz.TZDateTime(
+      tz.local,
+      dateTime.year,
+      dateTime.month,
+      dateTime.day,
+      endHour,
+      endMinute,
+    );
+
+    if (dateTime.isBefore(start)) {
+      return start;
+    }
+
+    if (dateTime.isAfter(end)) {
+      return tz.TZDateTime(
+        tz.local,
+        dateTime.year,
+        dateTime.month,
+        dateTime.day + 1,
+        startHour,
+        startMinute,
+      );
+    }
+
+    return dateTime;
+  }
+
+  tz.TZDateTime _nextValidScheduledDate({
+    required tz.TZDateTime from,
+    required int intervalHours,
+    required int startHour,
+    required int startMinute,
+    required int endHour,
+    required int endMinute,
+  }) {
+    final candidate = from.add(Duration(hours: intervalHours));
+
+    final start = tz.TZDateTime(
+      tz.local,
+      candidate.year,
+      candidate.month,
+      candidate.day,
+      startHour,
+      startMinute,
+    );
+
+    final end = tz.TZDateTime(
+      tz.local,
+      candidate.year,
+      candidate.month,
+      candidate.day,
+      endHour,
+      endMinute,
+    );
+
+    if (candidate.isBefore(start)) {
+      return start;
+    }
+
+    if (candidate.isAfter(end)) {
+      return tz.TZDateTime(
+        tz.local,
+        candidate.year,
+        candidate.month,
+        candidate.day + 1,
+        startHour,
+        startMinute,
+      );
+    }
+
+    return candidate;
+  }
+
+  Future<void> rescheduleQueue({
+    required String title,
+    required List<String> messages,
+    required NotificationPreferencesService preferences,
+    required NotificationSettingsModel settings,
+    int targetCount = 20,
+    int intervalHours = 3,
+  }) async {
+    await cancelAll(preferences: preferences);
+
+    if (!settings.enabled) {
+      return;
+    }
+
+    await replenishQueue(
+      title: title,
+      messages: messages,
+      preferences: preferences,
+      settings: settings,
+      targetCount: targetCount,
+      intervalHours: intervalHours,
+    );
   }
 
   Future<int> getPendingCount() async {
