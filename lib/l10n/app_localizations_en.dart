@@ -31,4 +31,55 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get quoteLoadError => 'The message could not be loaded.';
+
+  @override
+  String get language => 'Language';
+
+  @override
+  String get theme => 'Theme';
+
+  @override
+  String get themeSystem => 'System default';
+
+  @override
+  String get themeLight => 'Light';
+
+  @override
+  String get themeDark => 'Dark';
+
+  @override
+  String get settings => 'Settings';
+
+  @override
+  String get preferences => 'Preferences';
+
+  @override
+  String get notificationSettingTitle => 'Notifications';
+
+  @override
+  String get notificationSettingSubtitle => 'Receive inspirational quotes during the day';
+
+  @override
+  String get notificationStartTime => 'Start time';
+
+  @override
+  String get notificationEndTime => 'End time';
+
+  @override
+  String get notificationVibration => 'Vibration';
+
+  @override
+  String get notificationVibrationSubtitle => 'Vibrate when a notification is shown';
+
+  @override
+  String get about => 'About';
+
+  @override
+  String get appVersion => 'App version';
+
+  @override
+  String get termsOfUse => 'Terms of use';
+
+  @override
+  String get privacyPolicy => 'Privacy policy';
 }

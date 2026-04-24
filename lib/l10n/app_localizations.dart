@@ -142,6 +142,108 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'The message could not be loaded.'**
   String get quoteLoadError;
+
+  /// Language setting title
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get language;
+
+  /// Theme setting title
+  ///
+  /// In en, this message translates to:
+  /// **'Theme'**
+  String get theme;
+
+  /// System theme option
+  ///
+  /// In en, this message translates to:
+  /// **'System default'**
+  String get themeSystem;
+
+  /// Light theme option
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get themeLight;
+
+  /// Dark theme option
+  ///
+  /// In en, this message translates to:
+  /// **'Dark'**
+  String get themeDark;
+
+  /// Settings screen title
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get settings;
+
+  /// Preferences section
+  ///
+  /// In en, this message translates to:
+  /// **'Preferences'**
+  String get preferences;
+
+  /// Notification setting title
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get notificationSettingTitle;
+
+  /// Notification setting subtitle
+  ///
+  /// In en, this message translates to:
+  /// **'Receive inspirational quotes during the day'**
+  String get notificationSettingSubtitle;
+
+  /// Notification start time title
+  ///
+  /// In en, this message translates to:
+  /// **'Start time'**
+  String get notificationStartTime;
+
+  /// Notification end time title
+  ///
+  /// In en, this message translates to:
+  /// **'End time'**
+  String get notificationEndTime;
+
+  /// Notification vibration setting title
+  ///
+  /// In en, this message translates to:
+  /// **'Vibration'**
+  String get notificationVibration;
+
+  /// Notification vibration setting subtitle
+  ///
+  /// In en, this message translates to:
+  /// **'Vibrate when a notification is shown'**
+  String get notificationVibrationSubtitle;
+
+  /// About section
+  ///
+  /// In en, this message translates to:
+  /// **'About'**
+  String get about;
+
+  /// App version label
+  ///
+  /// In en, this message translates to:
+  /// **'App version'**
+  String get appVersion;
+
+  /// Terms of use title
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of use'**
+  String get termsOfUse;
+
+  /// Privacy policy title
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy policy'**
+  String get privacyPolicy;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

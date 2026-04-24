@@ -31,5 +31,73 @@
   "quoteLoadError": "Não foi possível carregar a mensagem.",
   "@quoteLoadError": {
     "description": "Mensagem de erro ao carregar uma frase"
+  },
+  "language": "Idioma",
+  "@language": {
+    "description": "Título da configuração de idioma"
+  },
+  "theme": "Tema",
+  "@theme": {
+    "description": "Título da configuração de tema"
+  },
+  "themeSystem": "Padrão do sistema",
+  "@themeSystem": {
+    "description": "Opção de tema baseada no sistema"
+  },
+  "themeLight": "Claro",
+  "@themeLight": {
+    "description": "Opção de tema claro"
+  },
+  "themeDark": "Escuro",
+  "@themeDark": {
+    "description": "Opção de tema escuro"
+  },
+  "settings": "Configurações",
+  "@settings": {
+    "description": "Título da tela de configurações"
+  },
+  "preferences": "Preferências",
+  "@preferences": {
+    "description": "Seção de preferências"
+  },
+  "notificationSettingTitle": "Notifications",
+  "@notificationSettingTitle": {
+    "description": "Notification setting title"
+  },
+  "notificationSettingSubtitle": "Receive inspirational quotes during the day",
+  "@notificationSettingSubtitle": {
+    "description": "Notification setting subtitle"
+  },
+  "notificationStartTime": "Start time",
+  "@notificationStartTime": {
+    "description": "Notification start time title"
+  },
+  "notificationEndTime": "End time",
+  "@notificationEndTime": {
+    "description": "Notification end time title"
+  },
+  "notificationVibration": "Vibration",
+  "@notificationVibration": {
+    "description": "Notification vibration setting title"
+  },
+  "notificationVibrationSubtitle": "Vibrate when a notification is shown",
+  "@notificationVibrationSubtitle": {
+    "description": "Notification vibration setting subtitle"
+  },
+  "about": "Sobre",
+  "@about": {
+    "description": "Seção sobre o app"
+  },
+  "appVersion": "Versão do app",
+  "@appVersion": {
+    "description": "Label da versão do aplicativo"
+  },
+  "termsOfUse": "Termos de uso",
+  "@termsOfUse": {
+    "description": "Título dos termos de uso"
+  },
+  "privacyPolicy": "Política de privacidade",
+  "@privacyPolicy": {
+    "description": "Título da política de privacidade"
   }
 }

@@ -31,5 +31,73 @@
   "quoteLoadError": "The message could not be loaded.",
   "@quoteLoadError": {
     "description": "Error message when loading a phrase."
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language setting title"
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme setting title"
+  },
+  "themeSystem": "System default",
+  "@themeSystem": {
+    "description": "System theme option"
+  },
+  "themeLight": "Light",
+  "@themeLight": {
+    "description": "Light theme option"
+  },
+  "themeDark": "Dark",
+  "@themeDark": {
+    "description": "Dark theme option"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings screen title"
+  },
+  "preferences": "Preferences",
+  "@preferences": {
+    "description": "Preferences section"
+  },
+  "notificationSettingTitle": "Notifications",
+  "@notificationSettingTitle": {
+    "description": "Notification setting title"
+  },
+  "notificationSettingSubtitle": "Receive inspirational quotes during the day",
+  "@notificationSettingSubtitle": {
+    "description": "Notification setting subtitle"
+  },
+  "notificationStartTime": "Start time",
+  "@notificationStartTime": {
+    "description": "Notification start time title"
+  },
+  "notificationEndTime": "End time",
+  "@notificationEndTime": {
+    "description": "Notification end time title"
+  },
+  "notificationVibration": "Vibration",
+  "@notificationVibration": {
+    "description": "Notification vibration setting title"
+  },
+  "notificationVibrationSubtitle": "Vibrate when a notification is shown",
+  "@notificationVibrationSubtitle": {
+    "description": "Notification vibration setting subtitle"
+  },
+  "about": "About",
+  "@about": {
+    "description": "About section"
+  },
+  "appVersion": "App version",
+  "@appVersion": {
+    "description": "App version label"
+  },
+  "termsOfUse": "Terms of use",
+  "@termsOfUse": {
+    "description": "Terms of use title"
+  },
+  "privacyPolicy": "Privacy policy",
+  "@privacyPolicy": {
+    "description": "Privacy policy title"
   }
 }

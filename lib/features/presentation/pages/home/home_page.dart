@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../../core/routes/route_names.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../../application/quotes/providers/quote_provider.dart';
 import 'widgets/greeting.dart';
@@ -9,7 +10,7 @@ import 'widgets/main_card/main_card.dart';
 
 class HomePage extends ConsumerWidget {
   const HomePage({super.key});
-  
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context)!;
@@ -23,7 +24,14 @@ class HomePage extends ConsumerWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Header(),
+              Header(
+                onOpenFavorites: () {
+                  Navigator.pushNamed(context, RouteNames.favorites);
+                },
+                onOpenSettings: () {
+                  Navigator.pushNamed(context, RouteNames.settings);
+                },
+              ),
               const SizedBox(height: 20),
               const Greeting(name: ""),
               const SizedBox(height: 30),
@@ -39,7 +47,8 @@ class HomePage extends ConsumerWidget {
                 quoteId: quoteState.value?.id,
                 quoteText: quoteState.value?.text,
                 author: quoteState.value?.author,
-                onChangeQuote: () => ref.read(quoteProvider.notifier).refreshQuote(),
+                onChangeQuote: () =>
+                    ref.read(quoteProvider.notifier).refreshQuote(),
                 onToggleFavorite: () {},
                 onShare: () {},
               ),
