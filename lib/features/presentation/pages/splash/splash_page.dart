@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../core/providers/shared_preferences_provider.dart';
+import '../../../../core/routes/route_names.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../../application/startup/app_startup_provider.dart';
 import '../../../application/startup/app_startup_state.dart';
@@ -10,9 +11,9 @@ import '../../../data/quotes/models/quote_model.dart';
 import '../../../data/quotes/providers/quotes_provider.dart';
 import '../../../data/services/notification_preferences_service.dart';
 import '../../../data/services/notification_service.dart';
-import 'widgets/splash_background.dart';
-import 'widgets/splash_brand_section.dart';
-import 'widgets/splash_loading_section.dart';
+import './widgets/splash_background.dart';
+import './widgets/splash_brand_section.dart';
+import './widgets/splash_loading_section.dart';
 
 class SplashPage extends ConsumerStatefulWidget {
   const SplashPage({super.key});
@@ -45,7 +46,7 @@ class _SplashPageState extends ConsumerState<SplashPage> {
 
     _navigated = true;
 
-    // TODO Navigator.of(context).pushReplacementNamed(HomeRoute)
+    Navigator.pushNamed(context, RouteNames.home);
   }
 
   @override

@@ -16,4 +16,19 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get loading => 'Carregando...';
+
+  @override
+  String get goodMorning => 'Bom dia';
+
+  @override
+  String get goodAfternoon => 'Boa tarde';
+
+  @override
+  String get goodEvening => 'Boa noite';
+
+  @override
+  String get inspireAgain => 'Me Inspire Novamente ✦';
+
+  @override
+  String get quoteLoadError => 'Não foi possível carregar a mensagem.';
 }

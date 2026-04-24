@@ -1,7 +1,10 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/preference_keys.dart';
 import '../../../core/providers/shared_preferences_provider.dart';
+import '../locale/locale_provider.dart';
+import '../theme/theme_mode_provider.dart';
 import 'app_startup_state.dart';
 
 class AppStartupNotifier extends Notifier<AppStartupState> {
@@ -20,11 +23,13 @@ class AppStartupNotifier extends Notifier<AppStartupState> {
       final savedLocaleCode = prefs.getString(PreferenceKeys.localeCode);
 
       if (savedThemeMode == null || savedThemeMode.isEmpty) {
-        await prefs.setString(PreferenceKeys.themeMode, 'system');
+        await ref
+            .read(themeModeProvider.notifier)
+            .setThemeMode(ThemeMode.system);
       }
 
       if (savedLocaleCode == null || savedLocaleCode.isEmpty) {
-        await prefs.setString(PreferenceKeys.localeCode, 'pt');
+        await ref.read(localeProvider.notifier).setLocale(const Locale('pt'));
       }
 
       state = const AppStartupState.ready();

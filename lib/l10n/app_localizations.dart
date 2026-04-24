@@ -112,6 +112,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Loading...'**
   String get loading;
+
+  /// Greeting shown in the morning
+  ///
+  /// In en, this message translates to:
+  /// **'Good Morning'**
+  String get goodMorning;
+
+  /// Greeting shown in the afternoon
+  ///
+  /// In en, this message translates to:
+  /// **'Good Afternoon'**
+  String get goodAfternoon;
+
+  /// Greeting shown in the evening
+  ///
+  /// In en, this message translates to:
+  /// **'Good Evening'**
+  String get goodEvening;
+
+  /// Button label to refresh the inspirational quote
+  ///
+  /// In en, this message translates to:
+  /// **'Inspire Me Again ✦'**
+  String get inspireAgain;
+
+  /// Error message when loading a phrase.
+  ///
+  /// In en, this message translates to:
+  /// **'The message could not be loaded.'**
+  String get quoteLoadError;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

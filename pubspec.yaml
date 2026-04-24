@@ -71,6 +71,7 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
+    - assets/images/inspiration.png
     - assets/data/en/categories.json
     - assets/data/en/quotes.json
     - assets/data/pt/categories.json

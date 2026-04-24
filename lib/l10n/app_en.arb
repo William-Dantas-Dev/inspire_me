@@ -11,5 +11,25 @@
   "loading": "Loading...",
   "@loading": {
     "description": "Loading text"
+  },
+  "goodMorning": "Good Morning",
+  "@goodMorning": {
+    "description": "Greeting shown in the morning"
+  },
+  "goodAfternoon": "Good Afternoon",
+  "@goodAfternoon": {
+    "description": "Greeting shown in the afternoon"
+  },
+  "goodEvening": "Good Evening",
+  "@goodEvening": {
+    "description": "Greeting shown in the evening"
+  },
+  "inspireAgain": "Inspire Me Again ✦",
+  "@inspireAgain": {
+    "description": "Button label to refresh the inspirational quote"
+  },
+  "quoteLoadError": "The message could not be loaded.",
+  "@quoteLoadError": {
+    "description": "Error message when loading a phrase."
   }
 }

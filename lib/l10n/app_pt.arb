@@ -11,5 +11,25 @@
   "loading": "Carregando...",
   "@loading": {
     "description": "Texto de carregamento"
+  },
+  "goodMorning": "Bom dia",
+  "@goodMorning": {
+    "description": "Saudação exibida pela manhã"
+  },
+  "goodAfternoon": "Boa tarde",
+  "@goodAfternoon": {
+    "description": "Saudação exibida à tarde"
+  },
+  "goodEvening": "Boa noite",
+  "@goodEvening": {
+    "description": "Saudação exibida à noite"
+  },
+  "inspireAgain": "Me Inspire Novamente ✦",
+  "@inspireAgain": {
+    "description": "Rótulo do botão para gerar outra frase inspiradora"
+  },
+  "quoteLoadError": "Não foi possível carregar a mensagem.",
+  "@quoteLoadError": {
+    "description": "Mensagem de erro ao carregar uma frase"
   }
 }

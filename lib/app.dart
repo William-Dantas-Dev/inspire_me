@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'core/routes/app_routes.dart';
+import 'core/routes/route_names.dart';
 import 'core/theme/app_theme.dart';
 import 'features/application/locale/locale_provider.dart';
 import 'features/application/theme/theme_mode_provider.dart';
-import 'features/presentation/pages/splash/splash_page.dart';
 import 'l10n/app_localizations.dart';
 
 class InspireMeApp extends ConsumerWidget {
@@ -29,7 +30,8 @@ class InspireMeApp extends ConsumerWidget {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      home: const SplashPage(),
+      initialRoute: RouteNames.splash,
+      onGenerateRoute: AppRoutes.onGenerateRoute,
     );
   }
 }

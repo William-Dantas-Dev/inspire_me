@@ -43,6 +43,6 @@ class LocaleNotifier extends Notifier<Locale> {
     state = const Locale('pt');
 
     final service = ref.read(localePreferencesServiceProvider);
-    await service.saveLocale(const Locale('pt'));
+    await service.saveLocale(const Locale('en'));
   }
 }
