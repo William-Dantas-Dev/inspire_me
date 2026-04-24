@@ -60,33 +60,89 @@
   "@preferences": {
     "description": "Seção de preferências"
   },
-  "notificationSettingTitle": "Notifications",
+  "notificationSettingTitle": "Notificações",
   "@notificationSettingTitle": {
-    "description": "Notification setting title"
+    "description": "Título da opção de notificações"
   },
-  "notificationSettingSubtitle": "Receive inspirational quotes during the day",
+  "notificationSettingSubtitle": "Receba frases inspiradoras durante o dia",
   "@notificationSettingSubtitle": {
-    "description": "Notification setting subtitle"
+    "description": "Subtítulo da opção de notificações"
   },
-  "notificationStartTime": "Start time",
+  "notificationStartTime": "Horário inicial",
   "@notificationStartTime": {
-    "description": "Notification start time title"
+    "description": "Título da opção de horário inicial das notificações"
   },
-  "notificationEndTime": "End time",
+  "notificationEndTime": "Horário final",
   "@notificationEndTime": {
-    "description": "Notification end time title"
+    "description": "Título da opção de horário final das notificações"
   },
-  "notificationVibration": "Vibration",
+  "notificationVibration": "Vibração",
   "@notificationVibration": {
-    "description": "Notification vibration setting title"
+    "description": "Título da opção de vibração das notificações"
   },
-  "notificationVibrationSubtitle": "Vibrate when a notification is shown",
+  "notificationVibrationSubtitle": "Vibrar quando uma notificação for exibida",
   "@notificationVibrationSubtitle": {
-    "description": "Notification vibration setting subtitle"
+    "description": "Subtítulo da opção de vibração das notificações"
+  },
+  "favoriteRemoved": "Removido dos favoritos",
+  "@favoriteRemoved": {
+    "description": "Mensagem exibida ao remover uma frase dos favoritos"
+  },
+  "favoritePendingRemoval": "Remoção pendente...",
+  "@favoritePendingRemoval": {
+    "description": "Texto exibido quando um item está aguardando remoção dos favoritos"
+  },
+  "favoriteShareTooltip": "Compartilhar citação",
+  "@favoriteShareTooltip": {
+    "description": "Tooltip do botão de compartilhar citação"
+  },
+  "favoriteRemoveTooltip": "Remover dos favoritos",
+  "@favoriteRemoveTooltip": {
+    "description": "Tooltip do botão de remover dos favoritos"
+  },
+  "favoritePendingTooltip": "Aguardando possibilidade de desfazer",
+  "@favoritePendingTooltip": {
+    "description": "Tooltip quando o item está aguardando remoção e pode ser desfeito"
+  },
+  "favoriteEmptyTitle": "Nenhuma frase favorita ainda.",
+  "@favoriteEmptyTitle": {
+    "description": "Título quando não há frases favoritas"
+  },
+  "favoriteEmptySubtitle": "Favorite uma frase na tela principal para vê-la aqui.",
+  "@favoriteEmptySubtitle": {
+    "description": "Subtítulo quando não há frases favoritas"
+  },
+  "favoriteErrorTitle": "Não foi possível carregar os favoritos.",
+  "@favoriteErrorTitle": {
+    "description": "Mensagem de erro ao carregar favoritos"
+  },
+  "retry": "Tentar novamente",
+  "@retry": {
+    "description": "Texto do botão de tentar novamente"
+  },
+  "undo": "Desfazer",
+  "@undo": {
+    "description": "Ação para desfazer uma remoção"
   },
   "about": "Sobre",
   "@about": {
     "description": "Seção sobre o app"
+  },
+  "cancel": "Cancelar",
+  "@cancel": {
+    "description": "Texto do botão de cancelar"
+  },
+  "share": "Compartilhar",
+  "@share": {
+    "description": "Texto do botão de compartilhar"
+  },
+  "sharing": "Compartilhando...",
+  "@sharing": {
+    "description": "Texto exibido enquanto o compartilhamento está em andamento"
+  },
+  "shareImageError": "Não foi possível compartilhar a imagem.",
+  "@shareImageError": {
+    "description": "Mensagem de erro ao compartilhar uma imagem"
   },
   "appVersion": "Versão do app",
   "@appVersion": {

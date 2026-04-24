@@ -10,6 +10,7 @@ import 'main_card_loading.dart';
 class MainCard extends StatelessWidget {
   const MainCard({
     super.key,
+    required this.repaintBoundaryKey,
     required this.isLoading,
     required this.hasError,
     required this.errorMessage,
@@ -25,6 +26,8 @@ class MainCard extends StatelessWidget {
     this.quoteText,
     this.author,
   });
+
+  final GlobalKey repaintBoundaryKey;
 
   final bool isLoading;
   final bool hasError;
@@ -61,20 +64,23 @@ class MainCard extends StatelessWidget {
           Expanded(
             child: ClipRRect(
               borderRadius: BorderRadius.circular(24),
-              child: Stack(
-                fit: StackFit.expand,
-                children: [
-                  MainCardBackground(categoryColor: categoryColor),
-                  Positioned(
-                    left: 20,
-                    right: 20,
-                    bottom: 20,
-                    child: AnimatedSwitcher(
-                      duration: const Duration(milliseconds: 250),
-                      child: _buildContent(),
+              child: RepaintBoundary(
+                key: repaintBoundaryKey,
+                child: Stack(
+                  fit: StackFit.expand,
+                  children: [
+                    MainCardBackground(categoryColor: categoryColor),
+                    Positioned(
+                      left: 20,
+                      right: 20,
+                      bottom: 20,
+                      child: AnimatedSwitcher(
+                        duration: const Duration(milliseconds: 250),
+                        child: _buildContent(),
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
           ),

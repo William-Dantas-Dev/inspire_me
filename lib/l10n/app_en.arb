@@ -84,6 +84,62 @@
   "@notificationVibrationSubtitle": {
     "description": "Notification vibration setting subtitle"
   },
+  "favoriteRemoved": "Removed from favorites",
+  "@favoriteRemoved": {
+    "description": "Message shown when removing a quote from favorites"
+  },
+  "favoritePendingRemoval": "Pending removal...",
+  "@favoritePendingRemoval": {
+    "description": "Text shown when an item is waiting to be removed from favorites"
+  },
+  "favoriteShareTooltip": "Share quote",
+  "@favoriteShareTooltip": {
+    "description": "Tooltip for share button"
+  },
+  "favoriteRemoveTooltip": "Remove from favorites",
+  "@favoriteRemoveTooltip": {
+    "description": "Tooltip for remove favorite button"
+  },
+  "favoritePendingTooltip": "Waiting for undo",
+  "@favoritePendingTooltip": {
+    "description": "Tooltip when item is pending removal and can be undone"
+  },
+  "favoriteEmptyTitle": "No favorite quotes yet.",
+  "@favoriteEmptyTitle": {
+    "description": "Title when there are no favorite quotes"
+  },
+  "favoriteEmptySubtitle": "Favorite a quote on the main screen to see it here.",
+  "@favoriteEmptySubtitle": {
+    "description": "Subtitle when there are no favorite quotes"
+  },
+  "favoriteErrorTitle": "Could not load favorites.",
+  "@favoriteErrorTitle": {
+    "description": "Error message when loading favorites"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button text"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  "share": "Share",
+  "@share": {
+    "description": "Share button text"
+  },
+  "sharing": "Sharing...",
+  "@sharing": {
+    "description": "Text shown while sharing is in progress"
+  },
+  "shareImageError": "The image could not be shared.",
+  "@shareImageError": {
+    "description": "Error message when sharing an image"
+  },
+  "undo": "Undo",
+  "@undo": {
+    "description": "Action to undo a removal"
+  },
   "about": "About",
   "@about": {
     "description": "About section"

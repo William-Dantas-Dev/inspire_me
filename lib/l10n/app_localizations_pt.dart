@@ -54,22 +54,64 @@ class AppLocalizationsPt extends AppLocalizations {
   String get preferences => 'Preferências';
 
   @override
-  String get notificationSettingTitle => 'Notifications';
+  String get notificationSettingTitle => 'Notificações';
 
   @override
-  String get notificationSettingSubtitle => 'Receive inspirational quotes during the day';
+  String get notificationSettingSubtitle => 'Receba frases inspiradoras durante o dia';
 
   @override
-  String get notificationStartTime => 'Start time';
+  String get notificationStartTime => 'Horário inicial';
 
   @override
-  String get notificationEndTime => 'End time';
+  String get notificationEndTime => 'Horário final';
 
   @override
-  String get notificationVibration => 'Vibration';
+  String get notificationVibration => 'Vibração';
 
   @override
-  String get notificationVibrationSubtitle => 'Vibrate when a notification is shown';
+  String get notificationVibrationSubtitle => 'Vibrar quando uma notificação for exibida';
+
+  @override
+  String get favoriteRemoved => 'Removido dos favoritos';
+
+  @override
+  String get favoritePendingRemoval => 'Remoção pendente...';
+
+  @override
+  String get favoriteShareTooltip => 'Compartilhar citação';
+
+  @override
+  String get favoriteRemoveTooltip => 'Remover dos favoritos';
+
+  @override
+  String get favoritePendingTooltip => 'Aguardando possibilidade de desfazer';
+
+  @override
+  String get favoriteEmptyTitle => 'Nenhuma frase favorita ainda.';
+
+  @override
+  String get favoriteEmptySubtitle => 'Favorite uma frase na tela principal para vê-la aqui.';
+
+  @override
+  String get favoriteErrorTitle => 'Não foi possível carregar os favoritos.';
+
+  @override
+  String get retry => 'Tentar novamente';
+
+  @override
+  String get cancel => 'Cancelar';
+
+  @override
+  String get share => 'Compartilhar';
+
+  @override
+  String get sharing => 'Compartilhando...';
+
+  @override
+  String get shareImageError => 'Não foi possível compartilhar a imagem.';
+
+  @override
+  String get undo => 'Desfazer';
 
   @override
   String get about => 'Sobre';

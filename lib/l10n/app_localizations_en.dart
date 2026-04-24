@@ -72,6 +72,48 @@ class AppLocalizationsEn extends AppLocalizations {
   String get notificationVibrationSubtitle => 'Vibrate when a notification is shown';
 
   @override
+  String get favoriteRemoved => 'Removed from favorites';
+
+  @override
+  String get favoritePendingRemoval => 'Pending removal...';
+
+  @override
+  String get favoriteShareTooltip => 'Share quote';
+
+  @override
+  String get favoriteRemoveTooltip => 'Remove from favorites';
+
+  @override
+  String get favoritePendingTooltip => 'Waiting for undo';
+
+  @override
+  String get favoriteEmptyTitle => 'No favorite quotes yet.';
+
+  @override
+  String get favoriteEmptySubtitle => 'Favorite a quote on the main screen to see it here.';
+
+  @override
+  String get favoriteErrorTitle => 'Could not load favorites.';
+
+  @override
+  String get retry => 'Retry';
+
+  @override
+  String get cancel => 'Cancel';
+
+  @override
+  String get share => 'Share';
+
+  @override
+  String get sharing => 'Sharing...';
+
+  @override
+  String get shareImageError => 'The image could not be shared.';
+
+  @override
+  String get undo => 'Undo';
+
+  @override
   String get about => 'About';
 
   @override

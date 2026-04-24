@@ -221,6 +221,90 @@ abstract class AppLocalizations {
   /// **'Vibrate when a notification is shown'**
   String get notificationVibrationSubtitle;
 
+  /// Message shown when removing a quote from favorites
+  ///
+  /// In en, this message translates to:
+  /// **'Removed from favorites'**
+  String get favoriteRemoved;
+
+  /// Text shown when an item is waiting to be removed from favorites
+  ///
+  /// In en, this message translates to:
+  /// **'Pending removal...'**
+  String get favoritePendingRemoval;
+
+  /// Tooltip for share button
+  ///
+  /// In en, this message translates to:
+  /// **'Share quote'**
+  String get favoriteShareTooltip;
+
+  /// Tooltip for remove favorite button
+  ///
+  /// In en, this message translates to:
+  /// **'Remove from favorites'**
+  String get favoriteRemoveTooltip;
+
+  /// Tooltip when item is pending removal and can be undone
+  ///
+  /// In en, this message translates to:
+  /// **'Waiting for undo'**
+  String get favoritePendingTooltip;
+
+  /// Title when there are no favorite quotes
+  ///
+  /// In en, this message translates to:
+  /// **'No favorite quotes yet.'**
+  String get favoriteEmptyTitle;
+
+  /// Subtitle when there are no favorite quotes
+  ///
+  /// In en, this message translates to:
+  /// **'Favorite a quote on the main screen to see it here.'**
+  String get favoriteEmptySubtitle;
+
+  /// Error message when loading favorites
+  ///
+  /// In en, this message translates to:
+  /// **'Could not load favorites.'**
+  String get favoriteErrorTitle;
+
+  /// Retry button text
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get retry;
+
+  /// Cancel button text
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get cancel;
+
+  /// Share button text
+  ///
+  /// In en, this message translates to:
+  /// **'Share'**
+  String get share;
+
+  /// Text shown while sharing is in progress
+  ///
+  /// In en, this message translates to:
+  /// **'Sharing...'**
+  String get sharing;
+
+  /// Error message when sharing an image
+  ///
+  /// In en, this message translates to:
+  /// **'The image could not be shared.'**
+  String get shareImageError;
+
+  /// Action to undo a removal
+  ///
+  /// In en, this message translates to:
+  /// **'Undo'**
+  String get undo;
+
   /// About section
   ///
   /// In en, this message translates to:
